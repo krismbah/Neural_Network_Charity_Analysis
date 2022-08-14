@@ -46,8 +46,13 @@ Figure 3.1:
 
 ### Data Preprocessing 
 * What variable(s) are considered the target(s) for your model?
+- Dfdadfadfda
+
 * What variable(s) are considered to be the features for your model?
+- Dfdadfadfda
+
 * What variable(s) are neither targets nor features, and should be removed from the input data?
+- Dfdadfadfda
 
 ### Compiling, Training, and Evaluating the Model
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
