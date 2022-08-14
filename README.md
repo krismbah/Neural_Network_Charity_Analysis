@@ -46,7 +46,8 @@ Figure 3.1:
 
 ### Data Preprocessing 
 * What variable(s) are considered the target(s) for your model?
-- Dfdadfadfda
+*   raraewdreared
+
 
 * What variable(s) are considered to be the features for your model?
 - Dfdadfadfda
