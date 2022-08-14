@@ -45,24 +45,28 @@ Figure 3.1:
 
 
 ### Data Preprocessing 
-* What variable(s) are considered the target(s) for your model?
-*   raraewdreared
+* "What variable(s) are considered the target(s) for your model?" The 'IS_SUCCESSFUL' column is considered to be the target of this model due to being a binary flag indicating the applicant will be successful if funded by Alphabet Soup.
 
 
-* What variable(s) are considered to be the features for your model?
-- Dfdadfadfda
+* "What variable(s) are considered to be the features for your model?" The following variables are considered the features for this model; 'EIN', 'NAME', 'APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'STATUS', 'INCOME_AMT', 'SPECIAL_CONSIDERATIONS', and 'ASK_AMT'.
 
-* What variable(s) are neither targets nor features, and should be removed from the input data?
-- Dfdadfadfda
+
+
+* "What variable(s) are neither targets nor features, and should be removed from the input data?" 'EIN' was removed due to being an ID number rather than a metric which could confuse the model into thinking it was significant.
+
 
 ### Compiling, Training, and Evaluating the Model
-* How many neurons, layers, and activation functions did you select for your neural network model, and why?
-* Were you able to achieve the target model performance?
-* What steps did you take to try and increase model performance?
+* "How many neurons, layers, and activation functions did you select for your neural network model, and why?" 100 neurons in the first layer, 30 neurons in the second layer, and 1 neuron in the third layer. The Sigmoid activation function was selected for each layer due to better accuracy.
+
+
+* "Were you able to achieve the target model performance?" Yes, accuracy was 78.05 percent.
+
+
+* "What steps did you take to try and increase model performance?" Adding a third layer with a sigmoid activation function in the first layer with 100 neurons.
 
 
 
 ## Summary
 
 
-In Summary,
+In Summary, the model accuracy was successfully optimized above the 75 percent threshold and reached a predictive accuracy level of 78 percent. The following models were considered using the same parameters; Logistic Regression, Random Forest, and Support Vector Machine. Both the Logistic Regression and Random Forest models resulted in predictive accuracy levels below the current optimized model.
