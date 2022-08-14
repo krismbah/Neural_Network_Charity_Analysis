@@ -69,4 +69,4 @@ Figure 3.1:
 ## Summary
 
 
-In Summary, the model accuracy was successfully optimized above the 75 percent threshold and reached a predictive accuracy level of 78 percent. The following models were considered using the same parameters; Logistic Regression, Random Forest, and Support Vector Machine. Both the Logistic Regression and Random Forest models resulted in predictive accuracy levels below the current optimized model.
+In Summary, the model accuracy was successfully optimized above the 75 percent threshold and reached a predictive accuracy level of 78 percent. The following models were considered using the same parameters; Logistic Regression, Random Forest, and Support Vector Machine. Both the Logistic Regression and Random Forest models resulted in predictive accuracy levels below the current optimized model. The Support Vector Machine model did not produce a result. My recommendation would be to use the current optimized model. However, using other parameters and models may produce better results if experimented.
